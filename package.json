@@ -1,0 +1,23 @@
+{
+  "name": "sublimebot",
+  "version": "1.0.0",
+  "description": "Discord bot with some simple raid commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SriHari-15/sublimebot.git"
+  },
+  "author": "SriHari-15",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/SriHari-15/sublimebot/issues"
+  },
+  "homepage": "https://github.com/SriHari-15/sublimebot#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
