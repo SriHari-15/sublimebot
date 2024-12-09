@@ -13,10 +13,8 @@ const commandFiles = fs
 
 for (const file of commandFiles) {
   const command = require(`./commands/${file}`);
-  commands.push({
-    name: command.name,
-    description: command.description,
-  });
+  // Push the entire command object, which includes options and descriptions
+  commands.push(command);
 }
 
 // Create a temporary client to fetch guild IDs
