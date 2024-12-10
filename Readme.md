@@ -15,6 +15,8 @@
 - You can use `npm start` or `node index.js`
 
 ### Avaliable Commands:
+- Ping
+- Ban (Individual Member)
 
 ### License:
 - GNU General Public License 3.0. You can view it [here](https://github.com/SriHari-15/sublimebot/blob/main/LICENSE)
